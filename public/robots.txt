@@ -1,0 +1,19 @@
+# MARCKETA SEO Robots File
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+
+# Bing specific
+User-agent: Bingbot
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.marcketa.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
