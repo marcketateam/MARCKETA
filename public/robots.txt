@@ -1,0 +1,32 @@
+# MARCKETA SEO Robots File - وكالة ماركيتا للتسويق الرقمي
+User-agent: *
+Allow: /
+
+# Disallow private areas
+Disallow: /admin
+Disallow: /private
+Disallow: /api
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing specific
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Yandex
+User-agent: Yandex
+Allow: /
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.marcketa.com/sitemap.xml
+
+# Crawl delay for other bots
+Crawl-delay: 1
